@@ -33,7 +33,7 @@ struct record *generate_record(void)
         state = splitmix64(state);
 
         table[i].id = (uint32_t)i;
-        table[i].record = (uint32_t)state;
+        table[i].record = (uint32_t)(state % 1000000ULL);
     }
 
     return table;
