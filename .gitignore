@@ -1,0 +1,10 @@
+# Build artifacts
+build/
+*.o
+*.out
+a.out
+
+# perf
+perf.data
+perf.data.old
+perf.data.*
