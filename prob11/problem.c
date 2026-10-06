@@ -5,8 +5,7 @@
 
 const size_t TABLE_SIZE = 50000000;
 
-const u_int64_t SEED_1 = 0x9E3779B97F4A7C15;
-const u_int64_t SEED_2 = 0xC2B2AE3D27D4EB4F;
+
 
 uint64_t splitmix64(uint64_t x)
 {

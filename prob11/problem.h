@@ -6,6 +6,6 @@
 
 #define TABLE_SIZE 50000000
 
-int16_t *generate_table(uint64_t seed);
+int16_t *create_table(uint64_t seed);
 
 #endif
