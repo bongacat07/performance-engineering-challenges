@@ -21,3 +21,6 @@ Median: 9.660 ms
 | Instructions   |    1.725B |   2.300B |      **33.3% more** |
 | Branches       |    470.2M |   240.2M |     **48.9% fewer** |
 | Branch misses  |   114.93M |    2,956 |   **99.997% fewer** |
+
+
+Just changed one line of code LMAO.
